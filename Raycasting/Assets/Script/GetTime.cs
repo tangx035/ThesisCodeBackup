@@ -64,7 +64,7 @@ public class GetTime : MonoBehaviour {
 			if(hitedObjectName == "wall_1")
 			{
 				wall_1_timeLooked += Time.deltaTime;
-				//wall_1_timeLooked = Mathf.Round(wall_1_timeLooked * 100f) / 100f;
+				wall_1_timeLooked = Mathf.Round(wall_1_timeLooked * 100f) / 100f;
 				Mathf.RoundToInt(wall_1_timeLooked); 
 				lookingTime_Wall_1 = hitedObjectName + " be looked: " + wall_1_timeLooked;
 				//Debug.Log (lookingTime_Wall_1);
@@ -76,7 +76,7 @@ public class GetTime : MonoBehaviour {
 			if(hitedObjectName == "wall_2")
 			{
 				wall_2_timeLooked += Time.deltaTime;
-				//wall_2_timeLooked = Mathf.Round(wall_2_timeLooked * 100f) / 100f;
+				wall_2_timeLooked = Mathf.Round(wall_2_timeLooked * 100f) / 100f;
 				Mathf.RoundToInt(wall_2_timeLooked);
 				lookingTime_Wall_2 = hitedObjectName + " be looked: " + wall_2_timeLooked;
 				//Debug.Log (lookingTime_Wall_2);
@@ -86,7 +86,7 @@ public class GetTime : MonoBehaviour {
 			if(hitedObjectName == "wall_3")
 			{
 				wall_3_timeLooked += Time.deltaTime;
-				//wall_3_timeLooked = Mathf.Round(wall_3_timeLooked * 100f) / 100f;
+				wall_3_timeLooked = Mathf.Round(wall_3_timeLooked * 100f) / 100f;
 				Mathf.RoundToInt(wall_3_timeLooked);
 				lookingTime_Wall_3 = hitedObjectName + " be looked: " + wall_3_timeLooked;
 			//	Debug.Log (lookingTime_Wall_3);
